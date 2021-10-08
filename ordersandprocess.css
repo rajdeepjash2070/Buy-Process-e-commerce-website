@@ -1,0 +1,169 @@
+body{
+    background-color: rgb(235, 231, 231);
+    font-family: sans-serif;
+}
+#congrats img{
+    height: 200px;
+    width: 250px;
+    margin-left: 550px;
+    margin-top: 50px;
+   
+
+}
+#congrats img:after{
+    background-color: white;
+}
+#container{
+   
+     border-radius: 5px 5px 5px 5px;
+     height: 800px;
+    width: 600px;
+    margin-left: 165px;
+    box-shadow:  3px 3px 7px grey,
+  -10px -10px 15px white;
+  text-align: center;
+  margin-top: 200px;
+  
+}
+#shoe img{
+    height: 400px;
+    width: 400px;
+    box-shadow:  inset 3px 3px 7px rgb(124, 123, 123),
+   inset -10px -10px 15px rgb(255, 254, 254);
+margin-top: 30px;
+
+border-radius: 10px 10px 10px 10px;
+}
+#shoe-context div{
+    font-size: 30px;
+    color: rgb(40, 112, 146);
+    font-family: cursive;
+   
+    
+}
+#yourorder{
+    font-size: 40px;
+    color: rgb(175, 59, 13);
+   text-align: center;
+    letter-spacing: 5px;
+    
+    
+   font-weight: bold;
+    
+}
+ #cancel input[type=submit]{
+    height: 60px;
+    width: 200px;
+    border-radius: 30px 30px 30px 30px;
+    box-shadow: -10px -10px 10px white,
+10px 10px 15px rgb(192, 188, 188);
+outline: none;
+background-color: rgb(228, 224, 224);
+border:2px solid rgb(236, 235, 236);
+margin-top: 20px;
+cursor: pointer;
+
+}
+#Rating input[type=submit]{
+    height: 60px;
+    width: 200px;
+    border-radius: 30px 30px 30px 30px;
+    box-shadow: -10px -10px 10px white,
+10px 10px 15px rgb(192, 188, 188);
+outline: none;
+background-color: rgb(228, 224, 224);
+border:2px solid rgb(236, 235, 236);
+margin-top: 30px;
+
+cursor: pointer;
+
+}
+#leftprocess{
+    
+    font-size: 35px;
+  text-align: center;
+    color: green;
+}
+#rightorders{
+    height: 600px;
+    width: 350px;
+    background-color: rgb(235, 231, 231);
+    box-shadow: -10px -10px 10px white,
+    10px 10px 15px rgb(192, 188, 188);
+   margin-left: 780px;
+   margin-top: -800px;
+   justify-content: center;
+   text-align: center;
+   font-size: 25px;
+   
+}
+#right-context{
+    background-color: rgb(255, 128, 55);
+    color: white;
+}
+.container-process {
+    width: 600px;
+    margin-left: 350px;
+    
+}
+.progressbar {
+    counter-reset: step;
+}
+.progressbar li {
+    list-style-type: none;
+    width: 25%;
+    float: left;
+    font-size: 13px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ff0080;
+    
+}
+.progressbar li:before {
+    width: 30px;
+    height: 30px;
+    content: counter(step);
+    counter-increment: step;
+    line-height: 30px;
+    border: 5px solid #ff0000;
+    display: block;
+    text-align: center;
+    margin: 0 auto 10px auto;
+    border-radius: 50%;
+    background-color: white;
+}
+.progressbar li:after {
+    width: 100%;
+    height: 2px;
+    content: '';
+    position: absolute;
+    background-color: #ffae00;
+    top: 15px;
+    left: -50%;
+    z-index: -1;
+}
+.progressbar li:first-child:after {
+    content: none;
+}
+.progressbar li.active {
+    color: #29b68b;
+}
+.progressbar li.active:before {
+    border-color: #00ffb3;
+}
+.progressbar li.active + li:after {
+    background-color: #00ffb3;
+}
+#rightorders img{
+    height: 150px;
+    width: 270px;
+    margin-top: 20px;
+   border-radius: 10px 10px 10px 10px;
+
+}
+.container-process2 {
+    width: 360px;
+   margin-left: -30px;
+    font-size: 10px;
+}

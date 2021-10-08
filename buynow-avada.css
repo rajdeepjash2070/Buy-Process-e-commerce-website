@@ -1,0 +1,106 @@
+*{
+    background-color: rgb(236, 235, 236);
+    color: deeppink;
+    font-family: cursive;
+}
+#header-context{
+    background-color: rgb(49, 179, 172);
+    height: 100px;
+    width: 350px;
+    margin-left: 400px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    border-radius: 10px 10px 10px 10px;
+    font-family: cursive;
+    box-shadow: 0px 2px 15px 5px grey;
+    
+}
+#container{
+background: rgb(236, 235, 236);
+height: auto;
+width: 1200px;
+margin-left: 70px;
+box-shadow: -10px -10px 10px white,
+10px 10px 15px grey;
+margin-bottom: 100px;
+}
+#name{
+    
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-left: 200px;
+   
+
+}
+input[type=text]{
+    height: 50px;
+    width: 600px;
+    border-radius: 25px 25px 25px 25px;
+  border: 1px solid rgb(248, 242, 242);
+ /* box-shadow: -15px -15px 15px grey,
+ 15px 15px 15px deeppink,
+ inset -5px -5px 5px deeppink,
+ inset 5px 5px 5px grey; */
+ /*box-shadow: -10px -10px 15px grey,
+ 10px 10px 15px deeppink,
+ inset -10px -10px 15px grey,
+ inset 10px 10px 15px deeppink; */
+ margin-top: 30px;
+  box-shadow: inset 2px 2px 5px grey,
+ inset -14px -14px 18px white;
+ outline: none;
+ 
+}
+#emailid{
+    margin-left: 180px;
+}
+#phone{
+    margin-left: 130px; 
+}
+#adress{
+    margin-left: 145px; 
+}
+#pincode{
+    margin-left: 142px;
+}
+#container-header{
+    font-weight: bold;
+    margin-left: 320px;
+
+}
+#road{
+    margin-left: 162px;
+}
+#house{
+    margin-left: 32px;
+}
+input[type=submit]{
+    height: 60px;
+    width: 100px;
+    border-radius: 30px 30px 30px 30px;
+    box-shadow: -10px -10px 10px white,
+10px 10px 15px rgb(192, 188, 188);
+outline: none;
+background-color: rgb(228, 224, 224);
+border:2px solid rgb(236, 235, 236);
+margin-left: 900px;
+cursor: pointer;
+}
+
+#mobpay{
+display: flex;
+
+}
+#mobpay img{
+    margin-left: 30px;
+    height: 70px;
+    width: 120px;
+    
+}
+#mobpay{
+    font-size: 20px;
+    font-family: cursive;
+}
